@@ -1,0 +1,15 @@
+-var menuItems = {'Главная':'/index.html', 'О нас':'/about.html', 'Меню':'/menu.html', 'Фотогалерея':'/galery.html', 'Отзывы':'/testimonials.html', 'Контакты':'/contacts.html'}
+header#navbar
+    nav.navbar-fixed(role='navigation')
+        .nav-wrapper.container
+            a#logo-container.brand-logo(href='#') 5 вечеров
+            ul.right.hide-on-med-and-down
+                each href,name in menuItems
+                    li
+                        a(href="/"+href)=name
+            ul#nav-mobile.side-nav
+                each href,name in menuItems
+                    li
+                        a(href="/"+href)=name
+            a.button-collapse(href='#', data-activates='nav-mobile')
+                i.material-icons menu

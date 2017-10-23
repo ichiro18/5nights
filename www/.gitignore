@@ -1,4 +1,5 @@
 config.core.php
 connectors/config.core.php
 core/config
+core/cache
 manager/config.core.php

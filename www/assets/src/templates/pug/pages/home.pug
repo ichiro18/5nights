@@ -1,0 +1,91 @@
+-var slides = {'Вкуснятина1':'slide1.jpg','Вкуснятина2':'slide2.jpg','Вкуснятина3':'slide3.jpg','Вкуснятина4':'slide4.jpg','Вкуснятина5':'slide5.jpg','Вкуснятина6':'slide6.jpg'}
+#index-banner.section
+    .slider.fullscreen
+       ul.slides
+           each image, title in slides
+               li
+                   img(src="/images/home-slider/" + image)
+                   // random image
+                   .caption.left-align
+                       h3=title
+                       h5.light.grey-text.text-lighten-3 Here's our small slogan.
+.container.content
+    .section.light-section
+        h1.header.center Кафе "5 вечеров"
+        .row.center
+            h5.header.col.s12.light Это то место, где рады Вас видеть, сделать ваш отдых максимально приятным!
+        .row
+            ul.col.s6
+                li  Кафе с домашней кухней и демократичными ценами
+                li  Русская, Европейская, Японская, Итальянская кухни
+                li  Детское меню
+                li  Зал вместимостью до 70 гостей.
+                li  Уютная, комфортная атмосфера
+            ul.col.s6
+                li  Пять разных зон для отдыха на любой вкус
+                li  Бар
+                li  Банкеты, Свадьбы, Дни рождения, Торжества
+                li  Приятная музыка
+                li  Парковка
+.parallax-container
+    .parallax
+        img(src='/images/paralax-background/back1.jpg')
+.section.white
+    .row.container
+        h2.header Последние новости
+        .row.list-news
+            a(href="#").col.s6.list-news-item
+                .description
+                    .label-action Текущая акция
+                    h6 Розыгрыш сертификата
+                    h4 Дарим ужин!!!
+                    p Подарочный сертификат может стать отличным и полезным презентом для Ваших близких, друзей и коллег.
+            a(href="#").col.s6.list-news-item
+                .description
+                    .label-lost-action Акция закончена
+                    h6 20 сентября - 20 ноября
+                    h4 Вкусно, как у бабушки!
+                    p Кафе "Пять вечеров" сделает все, чтобы Вы чувствовали себя уютно, как дома!
+        .row.center
+            a.waves-effect.waves-light.btn Все новости
+.parallax-container
+    .parallax
+        img(src='/images/paralax-background/back2.jpg')
+.section.white
+    .row.container
+        h2.header Меню
+        .row.list-menus
+            a(href="#").col.s4.main-menu
+                h5 Основное меню
+            a(href="#").col.s4.bisness-lanch
+                h5 Бизнес-ланч
+            a(href="#").col.s4.bar-menu
+                h5 Винная карта
+.parallax-container
+    .parallax
+        img(src='/images/paralax-background/back3.jpg')
+.section.white
+    .row.container
+        h2.header Новинки в меню
+        .row.list-news-in-menu
+            a(href="#").col.s12.list-news-item
+                .image.col.s6
+                    img(src="/images/menus items/menu-item1.jpg")
+                .description.col.s6
+                    h4 ДЖАМБО СТЕЙК
+                    p Приготовлен по техасскому рецепту, с бурбоном и специями. Рибай из премиальной говядины, 150 дней зернового откорма. Порода бычков - Блэк Ангус.
+                    hr
+                    span.price 420гр. / 3100 руб.
+            a(href="#").col.s12.list-news-item
+                .image.col.s6
+                    img(src="/images/menus items/menu-item2.jpg")
+                .description.col.s6
+                    h4 ФИЛЕ СТЕЙК
+                    p Нежный стейк из говяжьей вырезки травяного откорма. Уругвай.
+                    hr
+                    span.price 300гр. / 2540 руб.
+        .row.center
+            a.waves-effect.waves-light.btn Посмотреть все меню
+.parallax-container
+    .parallax
+        img(src='/images/paralax-background/back4.jpg')
