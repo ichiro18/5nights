@@ -1,0 +1,4 @@
+config.core.php
+connectors/config.core.php
+core/config
+manager/config.core.php

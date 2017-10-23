@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Set permissions for /app/www...";
+echo "CHOWN files...";
+chown -R 5nights:5nights "/app/www";
+echo "CHMOD directories...";
+find "/app/www" -type d -exec chmod 0755 '{}' \;
+echo "CHMOD files...";
+find "/app/www" -type f -exec chmod 0644 '{}' \;
+

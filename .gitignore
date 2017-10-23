@@ -1,0 +1,6 @@
+.idea/
+.vagrant/
+vagrant/run
+.git/
+pass.txt
+config.xml
