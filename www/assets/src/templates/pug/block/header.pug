@@ -6,10 +6,10 @@ header#navbar
             ul.right.hide-on-med-and-down
                 each href,name in menuItems
                     li
-                        a(href="/"+href)=name
+                        a(href=""+href)=name
             ul#nav-mobile.side-nav
                 each href,name in menuItems
                     li
-                        a(href="/"+href)=name
+                        a(href=""+href)=name
             a.button-collapse(href='#', data-activates='nav-mobile')
                 i.material-icons menu

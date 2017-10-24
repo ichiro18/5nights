@@ -1,0 +1,52 @@
+body.green-theme {
+  background-color: #00A776;
+  color: white; }
+  body.green-theme #navbar nav {
+    background-color: #00A776; }
+    body.green-theme #navbar nav a {
+      color: white; }
+  body.green-theme .list-news a:first-child {
+    background-image: url("/images/news/happy birthday.jpg");
+    background-position: top center; }
+  body.green-theme .list-news a:last-child {
+    background-image: url("/images/home-slider/slide1.jpg"); }
+  body.green-theme .list-news a .description {
+    background-color: #00A776;
+    color: white; }
+  body.green-theme .list-menus a h5 {
+    background-color: #00A776;
+    color: white; }
+  body.green-theme .list-menus a.main-menu {
+    background-image: url("/images/menus/main-menu.jpg"); }
+  body.green-theme .list-menus a.bisness-lanch {
+    background-image: url("/images/menus/bisnes-lanch.jpg"); }
+  body.green-theme .list-menus a.bar-menu {
+    background-image: url("/images/menus/bar.jpg"); }
+  body.green-theme .page-footer {
+    background-color: #00A776;
+    color: white; }
+    body.green-theme .page-footer .menu-footer a {
+      color: white;
+      text-decoration: none; }
+      body.green-theme .page-footer .menu-footer a:hover {
+        text-decoration: underline; }
+    body.green-theme .page-footer .social-footer li i {
+      font-size: 2rem;
+      float: left;
+      margin-left: 15px;
+      color: white; }
+    body.green-theme .page-footer .footer-copyright {
+      color: white; }
+      body.green-theme .page-footer .footer-copyright a {
+        margin-left: 5px; }
+  body.green-theme .contact-block .contact-info {
+    background-color: #00A776; }
+  body.green-theme .list-news .label-action, body.green-theme .list-news .label-lost-action {
+    border: 1px solid white; }
+    body.green-theme .list-news .label-action:after, body.green-theme .list-news .label-lost-action:after {
+      border: 1px solid white; }
+  body.green-theme .list-news-in-menu .list-news-item .description {
+    color: white; }
+  body.green-theme .btn, body.green-theme .btn-large {
+    background-color: white;
+    color: #00A776; }

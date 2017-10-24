@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: #f5f5f5; }
+
+.materialboxed {
+  margin: 0; }
+  .materialboxed:hover {
+    box-shadow: 0 0 10px #000; }
+
+.card {
+  background: #f5f5f5;
+  padding: 20px; }
+
+.element-item img {
+  border: 1px solid #fff; }
+
+.button-group {
+  padding: 30px 0; }
+
+.btn {
+  box-shadow: 0 0 20px #808080; }
+
+button.button.light-blue.waves-effect.waves-light.btn.hvr-shrink {
+  margin: 10px; }
+
+.btn-floating {
+  box-shadow: 0 0 20px #000; }
+  .btn-floating:hover {
+    box-shadow: 0 0 10px #000; }
+  .btn-floating.btn-large i {
+    line-height: 50px; }
+
+.scrolltop {
+  display: none; }
+
+::-webkit-scrollbar {
+  z-index: 30;
+  width: 10px;
+  height: 0;
+  y-index: hidden; }
+
+::-webkit-scrollbar-track {
+  background-color: #ddd;
+  border-radius: 0;
+  border: 0; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 0;
+  border: 0; }

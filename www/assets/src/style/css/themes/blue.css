@@ -1,0 +1,49 @@
+body.light-theme #navbar nav {
+  background-color: white; }
+  body.light-theme #navbar nav a {
+    color: black; }
+
+body.light-theme .list-news a:first-child {
+  background-image: url("/images/news/happy birthday.jpg");
+  background-position: top center; }
+
+body.light-theme .list-news a:last-child {
+  background-image: url("/images/home-slider/slide1.jpg"); }
+
+body.light-theme .list-news a .description {
+  background-color: white;
+  color: black; }
+
+body.light-theme .list-menus a h5 {
+  background-color: white;
+  color: black; }
+
+body.light-theme .list-menus a.main-menu {
+  background-image: url("/images/menus/main-menu.jpg"); }
+
+body.light-theme .list-menus a.bisness-lanch {
+  background-image: url("/images/menus/bisnes-lanch.jpg"); }
+
+body.light-theme .list-menus a.bar-menu {
+  background-image: url("/images/menus/bar.jpg"); }
+
+body.light-theme .page-footer {
+  background-color: white;
+  color: black; }
+  body.light-theme .page-footer .menu-footer a {
+    color: black;
+    text-decoration: none; }
+    body.light-theme .page-footer .menu-footer a:hover {
+      text-decoration: underline; }
+  body.light-theme .page-footer .social-footer li i {
+    font-size: 2rem;
+    float: left;
+    margin-left: 15px;
+    color: black; }
+  body.light-theme .page-footer .footer-copyright {
+    color: black; }
+    body.light-theme .page-footer .footer-copyright a {
+      margin-left: 5px; }
+
+body.light-theme .contact-block .contact-info {
+  background-color: white; }

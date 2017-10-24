@@ -4,6 +4,7 @@
     opacity: 0.8
     a
       text-transform: uppercase
+//HOME
 .content
   margin-top: 100vh
 h2.header
@@ -78,3 +79,28 @@ h2.header
   .list-news-item:nth-child(2n)
     .image
       float: right
+// CONTACTS
+.contact-block
+  display: block
+  position: relative
+  img
+    max-width: 100%
+  .contact-info
+    display: block
+    padding: 15px
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    width: 100%
+    opacity: 0.8
+    ul
+      float: left
+      &:last-child
+        margin-left: 50px
+      li
+        display: flex
+        align-items: center
+        margin-bottom: 15px
+        i
+          margin-right: 10px

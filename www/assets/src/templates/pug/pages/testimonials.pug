@@ -1,0 +1,11 @@
+.parallax-container
+    .parallax
+        img(src='/images/paralax-background/back9.jpg')
+.section.white
+    .row.container
+        h3.header.center Отзывы
+        div.testimonials-block
+            #vk_comments
+            script(type='text/javascript').
+                VK.Widgets.Comments("vk_comments", {limit: 15, attach: "*"});
+

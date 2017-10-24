@@ -1,0 +1,52 @@
+body.dark-theme {
+  background-color: #432820;
+  color: white; }
+  body.dark-theme #navbar nav {
+    background-color: #432820; }
+    body.dark-theme #navbar nav a {
+      color: white; }
+  body.dark-theme .list-news a:first-child {
+    background-image: url("/images/news/happy birthday.jpg");
+    background-position: top center; }
+  body.dark-theme .list-news a:last-child {
+    background-image: url("/images/home-slider/slide1.jpg"); }
+  body.dark-theme .list-news a .description {
+    background-color: #432820;
+    color: white; }
+  body.dark-theme .list-menus a h5 {
+    background-color: #432820;
+    color: white; }
+  body.dark-theme .list-menus a.main-menu {
+    background-image: url("/images/menus/main-menu.jpg"); }
+  body.dark-theme .list-menus a.bisness-lanch {
+    background-image: url("/images/menus/bisnes-lanch.jpg"); }
+  body.dark-theme .list-menus a.bar-menu {
+    background-image: url("/images/menus/bar.jpg"); }
+  body.dark-theme .page-footer {
+    background-color: #432820;
+    color: white; }
+    body.dark-theme .page-footer .menu-footer a {
+      color: white;
+      text-decoration: none; }
+      body.dark-theme .page-footer .menu-footer a:hover {
+        text-decoration: underline; }
+    body.dark-theme .page-footer .social-footer li i {
+      font-size: 2rem;
+      float: left;
+      margin-left: 15px;
+      color: white; }
+    body.dark-theme .page-footer .footer-copyright {
+      color: white; }
+      body.dark-theme .page-footer .footer-copyright a {
+        margin-left: 5px; }
+  body.dark-theme .contact-block .contact-info {
+    background-color: #432820; }
+  body.dark-theme .list-news .label-action, body.dark-theme .list-news .label-lost-action {
+    border: 1px solid white; }
+    body.dark-theme .list-news .label-action:after, body.dark-theme .list-news .label-lost-action:after {
+      border: 1px solid white; }
+  body.dark-theme .list-news-in-menu .list-news-item .description {
+    color: white; }
+  body.dark-theme .btn, body.dark-theme .btn-large {
+    background-color: white;
+    color: #432820; }
